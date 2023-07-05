@@ -1,0 +1,120 @@
+.body{
+    background: linear-gradient(
+        to bottom, darkmagenta 0vh,wheat 60vh, wheat 100vh );
+        min-height: 100vh;
+
+    max-height: 30rem;
+}
+#container{
+    position: relative;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vh;
+    height: auto;
+    background-color: none;
+    /* box-shadow: 1vh 1vh 1vh rgba(0, 0, 0, 0.4); */
+    overflow-y: auto;
+}
+#container1{
+    position: relative;
+    margin-top: -3vh;
+    padding-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vh;
+    height: 70vh;
+    max-height: 70vh;
+    background-color: none;
+    border: none;
+    /* box-shadow: 1vh 1vh 1vh rgba(0, 0, 0, 0.4); */
+    overflow-y: auto;
+}
+#container1::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    background-color: transparent;
+
+}
+
+#openLine{
+    position: sticky;
+    margin-top: 2vh;
+    color: wheat;
+    font-family: 'Alkatra', cursive;
+    font-size: 3vh;
+    z-index: 1;
+    
+}
+
+#ToDo-input{
+    position: sticky;
+    border: 0.5vh rgba(139, 0, 139, 0.75) dashed;
+    border-radius: 2vh;
+    height: 5vh;
+    width: 35vh;
+    font-family: 'Alkatra', cursive;
+    background-color: rgb(245, 222, 179, 0.7);
+    font-size: 2vh;
+    padding-left: 1vh;
+    /* margin-top: 9vh; */
+    outline: none;
+    color: darkmagenta;
+}
+#ToDo-input:focus{
+    background-color: wheat;
+    outline: none;
+    color: darkmagenta;
+}
+#ToDo-input::placeholder{
+    color: darkmagenta;
+}
+.ToDo-plus-button{
+    position: sticky;
+    background: none;
+    border: none;
+    transform: translate(32vh, -5vh);
+    color: darkmagenta;
+    font-size: 4vh;
+}
+.ToDo-check-button{
+    position: sticky;
+    background: none;
+    border: none;
+    transform: translate(32vh, -5vh);
+    color: darkmagenta;
+    font-size: 4vh;
+}
+
+.inbox{
+    margin-left: 1.5vh;
+}
+#todos{
+    transform: translateY(-3vh);
+    font-family: 'Alkatra', cursive;
+    font-size: 2.5vh;
+    color: white;
+    background-color: darkmagenta;
+    margin-right: 1.5vh;
+    padding-left: 1.5vh;
+    border-radius: 1.75vh;
+    margin-bottom: 1vh;
+    box-shadow: 0.3vh 0.3vh 0vh rgba(139, 0, 139, 0.25);
+    color: wheat;
+}
+.icons{
+    position: absolute;
+    right: 0.5vh;
+    transform: translateY(0.75vh);
+    color: wheat;
+}
+.todoline {
+    display: flex;
+    flex-direction: row;
+}
+.edit-icon{
+    padding-left: 2vh;
+}
+.trash-icon{
+    padding-right: 1vh;
+}
