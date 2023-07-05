@@ -73,7 +73,7 @@
     position: sticky;
     background: none;
     border: none;
-    transform: translate(32vh, -5vh);
+    transform: translate(30vh, -5vh);
     color: darkmagenta;
     font-size: 4vh;
 }
@@ -81,7 +81,7 @@
     position: sticky;
     background: none;
     border: none;
-    transform: translate(32vh, -5vh);
+    transform: translate(30vh, -5vh);
     color: darkmagenta;
     font-size: 4vh;
 }
@@ -104,7 +104,7 @@
 }
 .icons{
     position: absolute;
-    right: 0.5vh;
+    right: 1vh;
     transform: translateY(0.75vh);
     color: wheat;
 }
